@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- Pay attention here! -->
+        <title>
+            HtMl
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style/style.css" type="text/css">
+        <script src="../js/scripts.js"></script>
+
+    </head>
+    <body>
+        <!-- Ajuda: Olhe os comentarios dos cogidos, preste atenção em todas as paginas--> 
+        <div id="cabecahlo">
+            <div id="first"> 
+                <h1> HTML </h1>
+            </div>
+        </div>
+
+        <!-- Pay attention on annotations -->
+        <div id="conteudo"> 
+            <div id="apresentacao" class="centralizar"> 
+                <h2> Qual será a senha verdadeira?</h2>
+                <br>
+                <!-- Remember that you have many directories/tabs -->
+                <input type="text" name="key" value="" placeholder="put in the key" id="key"/>
+                <div id="botoes">
+                    <button onclick="proximaFase()">
+                        Enviar Resposta 
+                    </button>
+                    <button onclick="Fase3()">
+                        Ajuda
+                    </button>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                        </div>
+                        <div class="col-sm">
+                            <p id="demo" style="display:none">
+                                <a href="novaFase.html" onclick="aviso()"> <br> Next <br></a>
+                            </p>
+                        </div>
+                        <div class="col-sm">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
